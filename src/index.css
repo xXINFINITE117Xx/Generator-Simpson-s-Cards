@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-/* src/Components/Card/Card.css */
 .card-simpson {
   background-color: #f9f9f9;
   border: 1px solid #ddd;
@@ -55,4 +54,14 @@
 
 .button-generating:active {
   background-color: #3e8e41; 
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
 }
