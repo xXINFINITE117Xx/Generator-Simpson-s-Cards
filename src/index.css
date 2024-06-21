@@ -16,7 +16,7 @@
 }
 
 .card-simpson img {
-  border-radius: 50%;
+  border-radius: 20%;
   height: auto;
   width: auto;
   object-fit: cover;
@@ -34,3 +34,25 @@
   font-size: 1em;
 }
 
+.button-generating {
+  background-color: #e0dd12; 
+  border: none; 
+  color: white; 
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 39.6rem;
+  cursor: pointer; 
+  border-radius: 8px; 
+  transition: background-color 0.3s ease; 
+}
+
+.button-generating:hover {
+  background-color: #45a049; 
+}
+
+.button-generating:active {
+  background-color: #3e8e41; 
+}
