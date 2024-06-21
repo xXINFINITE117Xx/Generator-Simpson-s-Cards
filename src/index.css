@@ -3,3 +3,34 @@
   padding: 0;
 }
 
+/* src/Components/Card/Card.css */
+.card-simpson {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.card-simpson img {
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card-simpson h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.card-simpson p {
+  color: #666;
+  font-size: 1em;
+}
+

@@ -26,7 +26,7 @@ function App() {
         imgCharacter={imgCharacter}
         quoteCharacter={quoteCharacter}
       />
-      <button onClick={handleGetApi}>Generar Personaje</button>
+      <button onClick={handleGetApi} className='button-generating'>Generar Personaje</button>
     </>
   )
 }
